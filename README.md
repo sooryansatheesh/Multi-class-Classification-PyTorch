@@ -54,6 +54,9 @@ print(wine.metadata)
 print(wine.variables) 
 
 </pre>
+
+3. Execute the code. Please feel free to modify the hyperparameters to see the performance of the model.
+   
 ## Results
 
 In our experiment we were able to obtain an accuracy of 98.1%. 
