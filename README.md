@@ -28,9 +28,11 @@ The Wine dataset created by Stefan Aeberhard and M. Forina is a popular dataset 
 ## Usage
 
 1. Install the ucimlrepo package
+   
 '''
 pip install ucimlrepo
 '''
+
 2. Import the dataset into your code
 '''
 from ucimlrepo import fetch_ucirepo 
