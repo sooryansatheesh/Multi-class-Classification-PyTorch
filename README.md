@@ -29,12 +29,15 @@ The Wine dataset created by Stefan Aeberhard and M. Forina is a popular dataset 
 
 1. Install the ucimlrepo package
    
-'''
+<pre>
+```python
 pip install ucimlrepo
-'''
+```
+</pre>
 
 2. Import the dataset into your code
-'''
+<pre>
+```python
 from ucimlrepo import fetch_ucirepo 
   
 # fetch dataset 
@@ -49,7 +52,8 @@ print(wine.metadata)
   
 # variable information 
 print(wine.variables) 
-'''
+```
+</pre>
 ## Results
 
 In our experiment we were able to obtain an accuracy of 98.1%. 
